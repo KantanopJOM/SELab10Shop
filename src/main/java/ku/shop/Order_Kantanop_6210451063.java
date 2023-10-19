@@ -4,11 +4,11 @@ import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Order {
+public class Order_Kantanop_6210451063 {
     private List<OrderItem> items;
     private LocalDateTime date;
 
-    public Order() {
+    public Order_Kantanop_6210451063() {
         this.items = new ArrayList<>();
         this.date = LocalDateTime.now();
     }

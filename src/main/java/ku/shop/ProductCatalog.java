@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class ProductCatalog {
 
-    private Order order;
+    private Order_Kantanop_6210451063 orderKantanop6210451063;
 
     private Map<String, Product> products;
 
