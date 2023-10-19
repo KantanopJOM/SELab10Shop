@@ -15,6 +15,9 @@ Scenario: Buy one product
 
 Scenario: Buy multiple products
     When I buy "Bread" with quantity 2
+    Then there are 3 "Bread" left
     And I buy "Jam" with quantity 1
+    Then there are 9 "Jam" left
     And I buy "Cheese" with quantity 2
+    Then there are 6 "Cheese" left
     Then total should be 181.00

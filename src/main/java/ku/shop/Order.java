@@ -28,7 +28,7 @@ public class Order {
     public int getAmountleft() {
         int amount = 0;
         for (OrderItem item : items)
-            amount += item.getQuantity();
+            amount = item.getQuantity();
         return amount;
     }
 }
